@@ -33,9 +33,9 @@ function question2() {
 // 3: Which item has a "GBP" currency code? Display it's name and price.
 function question3() {
   // Answer:
-  data.forEach(function(element) {
-    if (i.currency_code === “GBP”) {
-      console.log(element.title, element.price);
+  data.forEach(function(i) {
+    if (i.currency_code === "GBP") {
+      console.log(i.title, i.price);
     }
   });
 }
@@ -44,7 +44,7 @@ function question3() {
 
 
 // 4: Display a list of all items who are made of wood.
-function question4()
+function question4(){
 // Answer:
 
 let woodwork = []
